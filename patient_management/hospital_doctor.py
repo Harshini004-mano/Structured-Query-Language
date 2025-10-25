@@ -6,7 +6,7 @@ import pandas as pd
 # =========================
 # Database connection/setup
 # =========================
-con = sqltor.connect(host="localhost", user="root", password="harshini@2004")
+con = sqltor.connect(host="localhost", user="root", password="apple")
 cur = con.cursor(buffered=True)
 
 
