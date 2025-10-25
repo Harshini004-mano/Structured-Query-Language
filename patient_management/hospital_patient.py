@@ -3,7 +3,7 @@ import random
 import mysql.connector as sqltor 
 import pandas as pd 
  
-con = sqltor.connect(host="localhost", user="root", password="harshini@2004") 
+con = sqltor.connect(host="localhost", user="root", password="apple") 
 cur = con.cursor(buffered=True) 
 cur.execute("CREATE DATABASE IF NOT EXISTS hello") 
 cur.execute("USE hello") 
